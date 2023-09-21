@@ -9,6 +9,6 @@ const chechPermissions = (requestUser, resourceUserId) => {
   throw new CustomError.UnauthorizedError(
     'Not authorized to access this route'
   );
-};
+}; 
 
 module.exports = chechPermissions;
